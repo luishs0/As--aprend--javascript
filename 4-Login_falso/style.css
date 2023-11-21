@@ -1,0 +1,28 @@
+main{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+h1{
+    font-weight: 900;
+}
+
+.ms_hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: rgba(222, 60, 20, 0.9);
+    border-radius: 50px;
+    color: white;
+    padding: 2rem 0;
+}
+
+.container:hover{
+    background-color: rgb(222, 60, 20);
+    box-shadow: 0 0 10px black;
+}

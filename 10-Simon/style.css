@@ -1,0 +1,19 @@
+.rnd-numbers{
+    background-color: rgb(120, 145, 145);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: calc(100% / 5 - 1rem);
+    padding: 1rem 0;
+}
+#numbers-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.matching-numbers{
+    background-color: greenyellow;
+    padding: 1rem 2rem;
+    display: inline-block;
+}

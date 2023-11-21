@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biglietto treno</title>
+    <!-- link style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+
+    <main>
+        <div class="ms_container">
+
+            <h1>Calcula el precio de tu billete!</h1>
+
+            <div class="my_form">
+
+                <div class="input_form">
+                    <label for="name">Nombre y apellido</label>
+                    <input class="mr-4" type="text" name="" id="name">
+                </div>
+                <div class="input_form">
+                    <label for="km">Kilómetros a realizar</label>
+                    <input class="mr-4" type="number"name="" id="km">
+                </div>
+                <div class="input_form">
+                    <label for="age">Edad</label>
+                    <input class="mr-4" type="number" name="" id="age">
+                </div>
+                <div class="input_form">
+                    <button class="mx-auto" id="calc_btn">Calcular</button>
+                </div>
+               
+            </div>
+
+            <div class="ticket">
+                <div>
+                    <h3>Pasajero</h3>
+                    <div id="ticket-name"></div>
+                </div>
+                <div>
+                    <h3>Km</h3>
+                    <div id="ticket-km"></div>
+                </div>
+                <div>
+                    <h3>Precio</h3>
+                    <div id="ticket-finalprice"></div>
+                </div>
+            </div>
+
+            <div class="ms_spam"></div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

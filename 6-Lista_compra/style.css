@@ -1,0 +1,35 @@
+main{
+    font-family: 'Amatic SC', cursive;
+    background-color: #262626;
+    color: #ffffff;
+    height: 100vh;
+}
+
+.container{
+    font-size: 50px;
+}
+
+.title{
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 100px;
+}
+
+.list-wrapper{
+    background-color: #2f2f2f;  
+    border-radius: 20px;  
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
